@@ -108,7 +108,8 @@ li {
 }
 .clock {
 
-  font-size: 6em;
+  font-family: monospace;
+  font-size: 8em;
   margin-bottom: 0px;
 
 }
