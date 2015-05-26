@@ -131,7 +131,7 @@ li {
 
   display: inline-block;
   background-color: rgba(240, 240, 240, 1);
-  box-shadow: -3px 4px 0px 0px rgba(0,0,0,0.45);
+  box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.45);
   border: none;
   text-align: center;
   font-family: sans-serif;
