@@ -108,8 +108,7 @@ li {
 }
 .clock {
 
-  font-family: monospace;
-  font-size: 8em;
+  font-size: 6em;
   margin-bottom: 0px;
 
 }
@@ -136,7 +135,7 @@ li {
   box-shadow: -3px 4px 0px 0px rgba(0,0,0,0.45);
   border: none;
   text-align: center;
-  font-family: 'Oswald', sans-serif;
+  font-family: sans-serif;
   margin-top: 8px;
   margin-right: 1%;
 
