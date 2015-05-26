@@ -10,13 +10,14 @@
 
   $.getJSON("http://api.theysaidso.com/qod.json", function(data) {
 
-  var quote = data.contents.quote;
-  var source = data.contents.author;
+    var quote = data.contents.quote;
+    var source = data.contents.author;
 
-  document.getElementById("bigBox").innerHTML = quote + " - " + source;
+    document.getElementById("bigBox").innerHTML = quote + ' &mdash;' + source;
 
-});
+  });
 </script>
+
 <header>
 </header>
 <body onload="defaultfunc()">
@@ -74,7 +75,8 @@
         </div>
         <div class="row">
           <div class="boxes box4">
-            <h3 class="header quotes" id="bigBox">They who can give up essential liberty to obtain a little temporary safety deserve neither liberty nor safety. - Benjamin Franklin</h3>
+            <h3 class="header quotes" id="bigBox">There is nothing noble in being superior to your fellow man; true 
+nobility is being superior to your former self.  &mdash;Ernest Hemmingway</h3>
           </div>
         </div>
         <div class="row">
