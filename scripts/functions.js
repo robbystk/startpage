@@ -32,24 +32,7 @@ function getSomeTime() {
 
   }
 
-  if(date.getHours() >= 12){
-
-    if(date.getHours() > 12){
-
-      hour = date.getHours() - 12;
-      hour = hour.toString();
-
-    }
-    utc2 = " PM";
-
-  }
-  else {
-
-    utc2 = " AM"
-
-  }
-
-  document.getElementById('clock').innerHTML = hour + ":" + minutes + ":" + seconds + utc2;
+  document.getElementById('clock').innerHTML = hour + ":" + minutes + ":" + seconds;
 
 }
 
